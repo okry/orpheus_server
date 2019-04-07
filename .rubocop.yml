@@ -1,0 +1,6 @@
+require: rubocop-performance
+
+AllCops:   
+  DisabledByDefault:     
+    - 'Style/Documentation'     
+    - 'Layout/EmptyLinesAroundAccessModifier'
