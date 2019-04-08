@@ -3,6 +3,15 @@ class MainController < ApplicationController
   def index
   end
 
+  def show
+  end
+
+  def new
+  end
+
+
+
+
   def serve_song
     send_file '/home/okry/Documents/nyProjects/okry-temp.wav', type: 'audio.wav', disposition: 'inline'
   end
