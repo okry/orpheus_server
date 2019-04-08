@@ -50,14 +50,25 @@
           <input type='number' name='tempo' value='60'>bpm
           <h3>Number of beats in a phrase</h3><br>
           <input type='number' name='phrase-length' value='4'>
-          <h3>Number of phrases in the song</h3><br>
-          <input type='number' name='song-length' value='8'>
+          <h3>Number of phrases in a sequence</h3><br>
+          <input type='number' name='sequence-length' value='4'>
+          <h3>Number of sequences in the song</h3><br>
+          <input type='number' name='song-length' value='3'>
         </div>
       </div>
       <br>
       <br>
       <div>
-        <input type='submit' value='Generate Song'>
+        <%= button_to "Generate Song", :method=> generate_song(
+"\"(sal)\"
+
+\"load \"strike-length.sal\"\"
+
+\"./tmp/test.wav\"
+\"3\"
+\"2\"
+\"4\"
+") %>
       </div>
     </form>
   </div>
