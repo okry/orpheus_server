@@ -4,8 +4,14 @@
   <h1 id='welcome' style='position:relative;text-align:center;'>Composition Golem</h1>
 
   <div id='contents'>
-      <iframe id='new' src='/main/new'></iframe>
+      
+      <div style='height:80%;'>
+        <%= render 'form' %>
+      </div>
+      
+      <div>
+        <%= render 'results' %>
+      </div>
 
-      <iframe id='show' src='/main/show'></iframe>
   </div>
 </div>

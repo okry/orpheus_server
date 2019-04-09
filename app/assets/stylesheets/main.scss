@@ -6,19 +6,15 @@ ul {
   list-style: none;
 }
 
-iframe {
-  position: relative;
-  height: 100%;
-  width: 500px;
-  // border: none;
-}
-
 #main {
   position: fixed;
   height: 100%;
   width: 100%;
-  margin: 0%;
-  padding: 0%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 .flex-container {
@@ -26,26 +22,30 @@ iframe {
 }
 
 #contents {
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: space-around;
   align-items: center;
   top: 0;
   left: 0;
-  height: 87.5%;
+  margin: 0;
+  padding: 0;
   width: 100%;
+  height: 100%;
+
+  border-style: solid;
 }
 
-
-
-
-.parameters {
-  display: table-cell;
+#contents > div {
   vertical-align: middle;
-  margin: auto;
+  overflow: scroll;
+  border-style: solid;
 }
+
+
 .song {
   display: table-cell;
   vertical-align: middle;
+  text-align: center;
   margin: auto;
 }
