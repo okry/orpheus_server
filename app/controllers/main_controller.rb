@@ -3,6 +3,8 @@ class MainController < ApplicationController
   # PWD is project root: /orpheusapp
 
   def index
+    @songs = Song.all
+    @song = Song.new
   end
 
   def get_pwd

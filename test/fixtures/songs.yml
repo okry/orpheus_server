@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: MyString
+  piano: 
+  clarinet: 
+  snare: 
+  bass_drum: 
+  cymbal: 
+  root_note: MyString
+  root_sign: MyString
+  scale_type: MyString
+  bpm: 1
+  phrase_length: 1
+  sequence_length: 1
+  song_length: 1
+
+two:
+  id: MyString
+  piano: 
+  clarinet: 
+  snare: 
+  bass_drum: 
+  cymbal: 
+  root_note: MyString
+  root_sign: MyString
+  scale_type: MyString
+  bpm: 1
+  phrase_length: 1
+  sequence_length: 1
+  song_length: 1
